@@ -50,6 +50,8 @@ public class ServiciosController {
             servicioExiste.setCategoria(service.getCategoria());
             servicioExiste.setValor_unitario(service.getValor_unitario());
             servicioExiste.setEstado(service.getEstado());
+            servicioExiste.setDescripcion(service.getDescripcion());
+            servicioExiste.setImagen(service.getImagen());
 
             servicioService.guardarServicio(servicioExiste);
 
