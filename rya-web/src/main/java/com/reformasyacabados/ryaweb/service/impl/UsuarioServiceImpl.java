@@ -1,5 +1,6 @@
 package com.reformasyacabados.ryaweb.service.impl;
 
+import com.reformasyacabados.ryaweb.models.Cliente;
 import com.reformasyacabados.ryaweb.models.Usuario;
 import com.reformasyacabados.ryaweb.models.Rol;
 import com.reformasyacabados.ryaweb.repository.IUsuarioRepository;
@@ -7,6 +8,8 @@ import com.reformasyacabados.ryaweb.repository.IRolRepository;
 import com.reformasyacabados.ryaweb.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
@@ -16,6 +19,8 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     @Autowired
     private IRolRepository irolRepository;
+
+
 
     @Override
     public Usuario guardarUsuario(Usuario usuario, Rol rol) throws Exception {

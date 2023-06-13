@@ -23,5 +23,4 @@ public class Rol {
     @OneToOne(mappedBy = "rol")
     private Usuario usuario;
 
-    // Otros campos y métodos de la clase
 }
