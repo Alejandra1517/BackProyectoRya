@@ -1,8 +1,6 @@
 package com.reformasyacabados.ryaweb.controller;
 
-import com.reformasyacabados.ryaweb.models.Cliente;
 import com.reformasyacabados.ryaweb.models.Material;
-import com.reformasyacabados.ryaweb.service.ClienteService;
 import com.reformasyacabados.ryaweb.service.MaterialService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

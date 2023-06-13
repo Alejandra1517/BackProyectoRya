@@ -1,26 +1,26 @@
 package com.reformasyacabados.ryaweb.models;
 
-import lombok.Data;
-
 import javax.persistence.*;
+
+import lombok.Data;
 
 
 @Data
 
 @Entity
-@Table(name = "Clientes")
-public class Cliente {
+@Table(name = "Empleados")
+public class Empleado {
 
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    int id_cliente;
+    int id_empleado;
 
-    String nombre_cliente;
-
-    String documento;
+    String nombre;
 
     String telefono;
+
+    String documento;
 
     String direccion;
 
